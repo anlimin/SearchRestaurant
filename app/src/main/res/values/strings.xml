@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Restaurant Finder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="API_KEY_2">AIzaSyBSILH_Vl30Un8p7VaSOUcwNxgFvfiqUeg</string>
+    <string name="default_city">Toronto</string>
+    <string name="intent_key_id_tag">KEY_ID_TAG</string>
+    <string name="place_type">restaurant</string>
+    <string name="error_message">Restaurants unable at this time"</string>
+    <string name="no_active_connection">"No internet connection."</string>
+    <string name="no_google_play_services">"No Google Play Services found!"</string>
+    <string name="image_unavailable">Image unavailable.</string>
+</resources>
