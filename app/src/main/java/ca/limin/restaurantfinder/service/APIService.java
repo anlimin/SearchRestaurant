@@ -17,7 +17,7 @@ public class APIService {
     }
 
     public void getPlaceSearch(String query, String type, Integer radius, Integer maxPrice, Boolean openOnly) {
-        String KEY = "Your Google Maps API Key";
+        String KEY = "Your API Key";
         Call<Result> callTextSearch = retrofitAPI.getResultFromTextSearch(query, type, KEY, radius, maxPrice, openOnly);
         callTextSearch.enqueue(new Callback<Result>() {
             @Override
